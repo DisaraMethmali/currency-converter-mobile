@@ -13,15 +13,16 @@ To download and set up a React project from a Git repository, follow these steps
    ```bash
    git clone <repository_url>
    ```
+   Replace `<repository_url>` with the URL of the Git repository .
    
-Replace `<repository_url>` with the URL of the Git repository .
+
 ---
 
 ### **2. Navigate to the Project Directory**
 Once the repository is cloned, navigate into the project folder:
 ```bash
 cd project_name
-
+```
 Replace the API key in src/app.js with your own API key from exchangeratesapi.io
 ```
 
