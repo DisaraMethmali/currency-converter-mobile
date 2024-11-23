@@ -1,4 +1,29 @@
 # currency-converter-mobile
+To download and set up a React project from a Git repository, follow these steps:
+
+---
+
+### **1. Clone the Repository**
+1. Open your terminal or command prompt.
+2. Navigate to the directory where you want to store the project using:
+   ```bash
+   cd path/to/your/directory
+   ```
+3. Clone the repository using the `git clone` command:
+   ```bash
+   git clone <repository_url>
+   ```
+   Replace `<repository_url>` with the URL of the Git repository .
+
+---
+
+### **2. Navigate to the Project Directory**
+Once the repository is cloned, navigate into the project folder:
+```bash
+cd project_name
+```
+
+---
 # Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
@@ -26,10 +51,5 @@ In the output, you'll find options to open the app in a
 
 You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
 
-When you're ready, run:
-
-```bash
-npm run reset-project
 ```
