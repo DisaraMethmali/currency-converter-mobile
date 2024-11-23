@@ -24,9 +24,8 @@ Once the repository is cloned, navigate into the project folder:
 cd project_name
 ```
 Replace the API key in src/app.js with your own API key from exchangeratesapi.io
-```
 
-```
+---
 ** Welcome to your Expo app 👋**
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
