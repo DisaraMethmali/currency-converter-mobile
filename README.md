@@ -22,7 +22,7 @@ Once the repository is cloned, navigate into the project folder:
 ```bash
 cd project_name
 ```
-
+Replace the API key in `src/app.js` with your own API key from [exchangeratesapi.io](https://exchangeratesapi.io/).
 ---
 # Welcome to your Expo app 👋
 
