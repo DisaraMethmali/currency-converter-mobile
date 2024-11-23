@@ -66,7 +66,7 @@ const App = () => {
       setLoading(false);
     }, 2000);
   }, []);
-
+// if number is not valid
   const handleAmountChange = (text) => {
     if (!isNaN(text) || text === '') {
       setAmount(text);
