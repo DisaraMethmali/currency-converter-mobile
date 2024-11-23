@@ -21,8 +21,10 @@ Replace `<repository_url>` with the URL of the Git repository .
 Once the repository is cloned, navigate into the project folder:
 ```bash
 cd project_name
+
+Replace the API key in src/app.js with your own API key from exchangeratesapi.io
 ```
-Replace the API key in src/app.js with your own API key from exchangeratesapi.io.
+
 ---
 # Welcome to your Expo app 👋
 
