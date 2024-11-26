@@ -36,7 +36,7 @@ const App = () => {
             symbols: selectedCurrencies.join(','), // Use selectedCurrencies here
           },
         });
-        setRates(response.data.rates);
+        setRates(response.data.rates);// Update the exchange rates state with API response.
         setError('');
       } catch (error) {
         setError('Error fetching exchange rates.');
@@ -52,19 +52,19 @@ const App = () => {
       const newConvertedAmounts = {};
       selectedCurrencies.forEach((currency) => {
         if (rates[currency]) {
-          newConvertedAmounts[currency] = (amount * rates[currency]).toFixed(2);
+          newConvertedAmounts[currency] = (amount * rates[currency]).toFixed(2);// Convert the input amount using the exchange rate and store in a new object.
         }
       });
       setConvertedAmounts(newConvertedAmounts);
     } else {
-      setConvertedAmounts({});
+      setConvertedAmounts({});// Reset converted amounts if input is invalid.
     }
   }, [amount, selectedCurrencies, rates]);
 
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 2000);
+    }, 2000);// Simulate loading by setting the loading state to false after 2 seconds
   }, []);
 // if number is not valid
   const handleAmountChange = (text) => {
